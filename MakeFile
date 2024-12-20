@@ -1,0 +1,7 @@
+all: build
+
+build:
+	./build.sh
+
+clean:
+	rm -rf start.o kernel.o kernel.bin os.iso iso/boot
